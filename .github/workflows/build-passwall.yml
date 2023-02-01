@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/smsmail2022/padavanonly-immortalwrt
+  REPO_URL: https://github.com/padavanonly/immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: seeds/K2P20230131.config
