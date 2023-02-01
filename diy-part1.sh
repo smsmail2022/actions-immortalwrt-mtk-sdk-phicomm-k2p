@@ -17,4 +17,5 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git luci-app-omcproxy https://github.com/riverscn/luci-app-omcproxy.git;openwrt-18.06' >>feeds.conf.default
-echo 'src-git luci-app-omcproxy https://github.com/riverscn/luci-app-omcproxy/tree/18.06' >>feeds.conf.default
+echo 'src-git https://github.com/riverscn/luci-app-omcproxy/tree/18.06' >>feeds.conf.default
+svn export https://github.com/riverscn/luci-app-omcproxy/tree/18.06
