@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt for K2P cc
+name: Build k2p
 
 on:
   workflow_dispatch:
