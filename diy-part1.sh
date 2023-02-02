@@ -19,7 +19,7 @@ sed -i '$a src-git luci-app-omcproxy https://github.com/riverscn/luci-app-omcpro
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # echo 'src-git luci-app-omcproxy https://github.com/mumuou/luci-app-omcproxy' >>feeds.conf.default
 # echo 'src-git luci-app-omcproxy https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-omcproxy' >>feeds.conf.default
-echo 'src-git luci-app-aliyundrive-webdav https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-aliyundrive-webdav' >>feeds.conf.default
+# echo 'src-git luci-app-aliyundrive-webdav https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-aliyundrive-webdav' >>feeds.conf.default
 # svn export https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-omcproxy package/luci-app-omcproxy
 # svn export https://github.com/riverscn/luci-app-omcproxy package/luci-app-omcproxy
 # svn export https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
