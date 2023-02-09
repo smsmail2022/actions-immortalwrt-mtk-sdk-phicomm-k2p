@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 # Modified for padavanonly/immortalwrt
 
-name: Build ImmortalWrt with passwall
+name: Build ImmortalWrt with passwall k2p
 
 on:
   repository_dispatch:
@@ -20,10 +20,10 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/padavanonly/immortalwrt
+  REPO_URL: https://github.com/smsmail2022/padavanonly-immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: seeds/K2P20230202.config
+  CONFIG_FILE: seeds/k2p passwall.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
