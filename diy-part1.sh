@@ -12,11 +12,11 @@
 
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-sed -i '$a src-git luci-app-omcproxy https://github.com/smsmail2022/luci-app-omcproxy' feeds.conf.default
+# sed -i '$a src-git luci-app-omcproxy https://github.com/smsmail2022/luci-app-omcproxy' feeds.conf.default
 
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # echo 'src-git luci-app-omcproxy https://github.com/mumuou/luci-app-omcproxy' >>feeds.conf.default
-# echo 'src-git luci-app-omcproxy https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-omcproxy' >>feeds.conf.default
+echo 'src-git luci-app-omcproxy https://github.com/smsmail2022/luci-app-omcproxy' >>feeds.conf.default
 # echo 'src-git luci-app-aliyundrive-webdav https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-aliyundrive-webdav' >>feeds.conf.default
