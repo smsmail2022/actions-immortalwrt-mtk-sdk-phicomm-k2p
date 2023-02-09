@@ -12,9 +12,7 @@
 
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-# sed -i '$a src-git luci-app-omcproxy https://github.com/smsmail2022/luci-app-omcproxy' feeds.conf.default
-sed -i "/luci-app-omcproxy/d" "feeds.conf.default"
-echo "src-git luci-app-omcproxy https://github.com/smsmail2022/omcproxy2.git" >> "feeds.conf.default"
+sed -i '$a src-git luci-app-omcproxy https://github.com/smsmail2022/luci-app-omcproxy' feeds.conf.default
 
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
