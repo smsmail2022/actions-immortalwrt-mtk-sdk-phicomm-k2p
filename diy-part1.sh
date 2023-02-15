@@ -16,7 +16,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-#echo '添加omcproxy软件源'
+# echo '添加omcproxy软件源'
 #git clone https://github.com/smsmail2022/luci-app-omcproxy package/luci-app-omcproxy
-#git clone -b 18.06 https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
-git clone https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
+git clone -b 18.06 https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
+#git clone https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
