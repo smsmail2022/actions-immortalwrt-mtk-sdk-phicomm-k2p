@@ -21,7 +21,7 @@ env:
   UPLOAD_OUTPUT: true
 
 jobs:
- -name: ${{ env.DEVICE }} :
+  K2P:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
