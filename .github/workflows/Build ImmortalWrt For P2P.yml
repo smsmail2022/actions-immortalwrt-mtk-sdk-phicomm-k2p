@@ -21,7 +21,7 @@ env:
   UPLOAD_OUTPUT: true
 
 jobs:
-   newifi3-d2:
+ -name: ${{ env.DEVICE }} :
     runs-on: ubuntu-20.04
     permissions:
       contents: write
